@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <title>D3 Population Density GeoMapping</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="popdensity.css">
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <!--<script src="https://unpkg.com/topojson@3"></script>-->
+  </head>
+  <body>
+    <h1 style = "text-align:center; color:steelblue"><bold>Iowa Population Density</bold></h1>
+      
+    <script type="text/javascript" src="popdensity.js"></script>
+      
+    <!-- Buttons -->
+    <br>
+    <button onclick="update()">Toggle County Boundary</button>
+      
+    <!-- Submission Info -->
+    <h4>Samik Pradhan<br>Instructor: Suresh Lodha<br>CSE 163: Data programming for Visualization<br>Fall 2022</h4>
+   
+    <!-- Create a list using <ul> and <li> tag -->   
+    <h4>Files Submitted:</h4>
+    
+    <ul>
+      <li>iowa.json</li>
+      <li>popdensity.html</li>
+      <li>popdensity.css</li>
+      <li>popdensity.js</li>
+      <li>popdensity.csv</li>
+      <li>popdensityoutput.pdf</li>
+    </ul>
+      
+    <h4> Sources: </h4>
+    <ul>
+        <li>D3 API Reference</li>
+        <li><a href="https://github.com/camillol/cs424p3/blob/master/data/Population-Density%20By%20County.csv" target="_blank">Population Density CSV</a></li>
+        <li><a href="https://github.com/deldersveld/topojson/blob/master/countries/us-states/IA-19-iowa-counties.json" target="_blank">Iowa TopoJSON</a></li>
+        <li><a href="https://bl.ocks.org/mbostock/5562380" target="_blank">California Population Density by Mike Bostock</a></li>
+        <li><a href="https://bl.ocks.org/mbostock/4122298" target="_blank">U.S. Counties TopoJSON by Mike Bostock</a></li>
+        <li><a href="https://bost.ocks.org/mike/map/" target="_blank">Let's Make a Map by Mike Bostock</a></li>
+    </ul>
+
+  </body>
+</html>
