@@ -134,9 +134,9 @@ function update(toggle) {
                 .enter().append("path")
                 .attr("fill", function(d) { return color(findDensity(data, d.properties.NAME)); })
                 .attr("d", path)
-            .on("mouseover", function(d) {mmo(d);})
-                    .on("mousemove", function(d) {mmv(d);})
-                    .on("mouseout", function(d) {mml(d);});;
+                .on("mouseover", function(d) {mmo(d);})
+                .on("mousemove", function(d) {mmv(d);})
+                .on("mouseout", function(d) {mml(d);});;
             
 
             if (toggleB) {
